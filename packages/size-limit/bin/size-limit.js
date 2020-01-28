@@ -10,4 +10,4 @@ if (ciJobNumber() !== 1) {
   process.exit(0)
 }
 
-require('./run.js')(process)
+require('./../run.js')(process)
