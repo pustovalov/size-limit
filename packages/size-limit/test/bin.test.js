@@ -1,7 +1,7 @@
 let { join } = require('path')
 let spawn = require('cross-spawn')
 
-const BIN_PATH = join(__dirname, '../bin.js')
+const BIN_PATH = join(__dirname, '../bin/size-limit.js')
 
 function run (args, env = { }) {
   let cli = spawn(BIN_PATH, args, { env: { ...process.env, ...env } })
