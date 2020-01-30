@@ -9,12 +9,10 @@ let y = chalk.yellow
 
 function npmCommands (pkg) {
   let add = 'npm install --save-dev '
-  let rm = 'npm remove '
   if (existsSync(join(pkg.path, '..', 'yarn.lock'))) {
     add = 'yarn add --dev '
-    rm = 'yarn remove '
   }
-  return { add, rm }
+  return { add }
 }
 
 module.exports = process => {
