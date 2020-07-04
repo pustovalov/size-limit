@@ -4,3 +4,7 @@ node_js:
   - node
   - "12"
   - "10"
+
+script:
+  - yarn test
+  - ./scripts/max-listeners-check.sh
