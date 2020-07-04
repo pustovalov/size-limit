@@ -8,14 +8,6 @@
     {
       "path": "index.js",
       "limit": "1 KB"
-    },
-    {
-      "path": "lib.js",
-      "limit": "1 KB"
-    },
-    {
-      "path": "lib2.js",
-      "limit": "1 KB"
     }
   ]
 }
